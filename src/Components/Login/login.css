@@ -1,0 +1,66 @@
+.logos {
+  box-shadow: 0 0.8px 1.3px rgba(0, 0, 0, 0.069),
+    0 2.7px 4.2px rgba(0, 0, 0, 0.101), 0 12px 19px rgba(0, 0, 0, 0.17);
+  box-sizing: border-box;
+  position: absolute;
+  top: 6.5rem;
+  left: 13%;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.split {
+  height: 500px;
+  width: 50%;
+  position: relative;
+  top: 0;
+  padding-top: 20px;
+}
+
+.left {
+  color: #ffffff;
+  left: 0;
+  background-color: #111;
+  border-radius: 15px 0 0 15px;
+}
+
+.right {
+  border-radius: 0 15px 15px 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.centered {
+  width: 100% !important;
+  position: relative;
+  top: 23%;
+}
+
+.nice {
+  width: 100%;
+}
+
+.login_title {
+  height: 75px;
+  font-family: "Robot";
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.title_log {
+  margin: auto;
+  width: 50%;
+  border: teal solid 4px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.form {
+  margin: auto;
+  margin-top: 7%;
+  width: 80%;
+  height: 150px;
+}
+.login_input {
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.navbar {
+  background: black;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  position: absolute;
+}
+
+.link {
+  color: white;
+}
+.link:hover {
+  color: rgba(49, 163, 34, 0.904) !important;
+}

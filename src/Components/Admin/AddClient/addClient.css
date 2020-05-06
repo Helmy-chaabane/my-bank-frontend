@@ -1,0 +1,158 @@
+.p-steps-item {
+  transition: all 400ms ease-in-out;
+}
+.addC-C {
+  background: white;
+  margin-top: 15px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+  margin-bottom: 30px;
+}
+
+.addC-header {
+  background: black;
+  height: 60px;
+  border: 1px solid #c8c8c8;
+  padding: 1rem;
+  border-top-right-radius: 3px;
+  position: relative;
+  flex-shrink: 0;
+}
+.head {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+  color: white;
+  font-weight: 700;
+}
+
+.container_C {
+  width: 90%;
+  margin: auto;
+}
+.addC-container {
+  margin-top: 15px;
+  min-height: 50vh;
+}
+.fadeValidate {
+  animation-name: example1;
+  animation-duration: 1s;
+}
+.fadeClient {
+  animation-name: example2;
+  animation-duration: 1s;
+}
+.fadeAccount {
+  animation-name: example3;
+  animation-duration: 1s;
+}
+.fadeCard {
+  animation-name: example4;
+  animation-duration: 1s;
+}
+
+@keyframes example1 {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes example2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes example3 {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes example4 {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.addC-containers {
+  margin: 30px 0px 10px 0px;
+}
+
+.Acc-disc {
+  padding: 2rem;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.balance {
+  margin-left: 2%;
+  font-size: xx-large;
+  color: green;
+}
+
+#Cp_dropdown {
+  min-width: 60%;
+}
+
+._2D_VfCL6PDramYdGNPlSSA {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+}
+.hQ2zbRipnDD-I93UK4cyA {
+  margin: 5%;
+  height: 260px;
+}
+
+.card-bottom {
+  margin-bottom: 2%;
+}
+
+.confirmation {
+  margin-top: 2%;
+  text-align: center;
+}
+.confirmation .p-button {
+  font-size: 30px;
+  transition: 1s;
+}
+
+.confirmation .p-button:hover {
+  font-size: 40px;
+}
+
+.ModelT {
+  font-size: 18px;
+}
+.ModelL {
+  color: green;
+  font-size: 23px;
+}
+
+.modelP {
+  cursor: pointer;
+}
+
+.p-fluid .p-calendar .p-inputtext {
+  height: 100%;
+}
+
+.addC-bottom {
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  border: 1px solid #c8c8c8;
+  padding: 0.571em 1em;
+  margin: 0;
+}

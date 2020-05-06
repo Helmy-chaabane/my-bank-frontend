@@ -1,0 +1,93 @@
+.image {
+  text-align: center;
+}
+.profile {
+  margin: auto;
+  width: 100%;
+  z-index: 0;
+}
+
+.prof_title {
+  font-style: oblique;
+  font-weight: bold;
+  color: rgb(161, 140, 17);
+}
+
+.foot {
+  float: right;
+}
+
+.accounts {
+  margin: 4% 0 4% 0;
+}
+
+.card_acc_blocked {
+  min-width: 31.5% !important;
+  background-color: rgba(7, 85, 20, 0.2) !important;
+}
+
+.card_acc_unblocked {
+  min-width: 31.5% !important;
+  background-color: rgb(18, 218, 243, 0.2) !important;
+}
+
+.card_acc_blocked:hover {
+  box-shadow: 8px 2px 3px 5px rgba(255, 52, 52, 0.8);
+  font-size: 19px;
+  transition: all 0.1s;
+}
+.card_acc_unblocked:hover {
+  box-shadow: 8px 2px 3px 5px rgb(56, 177, 56, 0.8);
+  font-size: 19px;
+  transition: all 0.1s;
+}
+
+.subtitle_acc {
+  opacity: 0.7;
+  margin: -0.025rem 0 0.5rem 0;
+  font-weight: bold;
+}
+
+.sidebar_client {
+  z-index: 20;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  height: 100%;
+  max-height: 350px;
+}
+
+.button-side {
+  height: 50px;
+  margin-top: 50%;
+}
+
+.button-font {
+  width: 100%;
+  font-size: 20px !important;
+  color: white !important;
+}
+
+.side-icon {
+  font-size: 45px !important;
+}
+
+.color_pick {
+  background: rgb(255, 255, 255, 0.65);
+}
+
+.deleteing {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newAccount button {
+  float: right !important;
+}
+
+.p-fieldset {
+  width: 100%;
+}
+
+/*box-shadow:0 0.8px 1.3px rgba(0,0,0,.069), 0 2.7px 4.2px rgba(0,0,0,.101), 0 12px 19px rgba(0,0,0,.17)*/

@@ -1,0 +1,54 @@
+.looser {
+  box-sizing: border-box;
+  box-shadow: 0 0.8px 1.3px rgb(226, 7, 7),
+    0 2.7px 4.2px rgba(224, 22, 22, 0.726), 0 12px 19px rgba(216, 15, 15, 0.89) !important;
+}
+
+.winner {
+  box-sizing: border-box;
+  box-shadow: 0 0.8px 1.3px rgb(74, 255, 3),
+    0 2.7px 4.2px rgba(42, 224, 18, 0.904), 0 12px 19px rgba(89, 216, 15, 0.89) !important;
+}
+
+.vir_title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.col-5 {
+  height: 100% !important;
+}
+.Money_display {
+  width: auto;
+  text-align: center;
+  font-family: LINING;
+  font-size: 40px;
+}
+
+.arrow {
+  margin: auto;
+}
+.arrow_vir {
+  font-size: 30px !important;
+  color: rgb(34, 214, 34);
+  animation: moveRight 1.5s infinite;
+  position: relative;
+}
+
+@keyframes moveRight {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 90%;
+  }
+}
+.transfer {
+  color: orangered;
+  font-size: 30px;
+  font-weight: bolder;
+  width: auto;
+  margin-top: 5%;
+  text-align: center !important;
+}

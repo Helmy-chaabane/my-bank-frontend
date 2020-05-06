@@ -1,0 +1,17 @@
+.search {
+  float: right;
+  padding: 0.5rem;
+  border-color: #212529;
+}
+
+.pagination {
+  display: block !important;
+  text-align: center;
+  padding: 0.25rem;
+}
+
+table > tbody > tr:hover {
+  background: rgba(10, 10, 10, 0.1);
+  transition: all 0.5s;
+  cursor: pointer;
+}

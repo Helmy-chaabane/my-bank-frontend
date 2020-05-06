@@ -1,0 +1,30 @@
+.MoneyChoices {
+  width: 70%;
+  position: relative;
+  margin: auto !important;
+}
+.choice {
+  color: #ffffff;
+  background: rgb(33, 50, 126);
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  margin: 1%;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.424);
+  transition: 0.1s;
+}
+div .choice:hover {
+  background: rgb(26, 154, 75);
+}
+
+div .choice:active {
+  background: rgb(202, 101, 18);
+}
+
+.withdraw {
+  border: rebeccapurple 2px solid;
+}
+.withdraw input {
+  height: 100%;
+}

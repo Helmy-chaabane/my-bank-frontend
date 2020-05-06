@@ -1,0 +1,6 @@
+.myprofile {
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 0.8px 1.3px rgba(0, 0, 0, 0.069),
+    0 2.7px 4.2px rgba(0, 0, 0, 0.101), 0 12px 19px rgba(0, 0, 0, 0.17);
+}
